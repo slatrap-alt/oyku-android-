@@ -1,0 +1,4 @@
+plugins { id 'com.android.application' }
+android { namespace 'com.oyku.kelimeler'; compileSdk 35
+ defaultConfig { applicationId 'com.oyku.kelimeler'; minSdk 26; targetSdk 28; versionCode 3; versionName '3.0' }
+}

@@ -1,0 +1,13 @@
+OYKU APK - GITHUB ILE DERLEME
+
+1. GitHub hesabinda yeni bir PUBLIC veya PRIVATE bos repository olustur.
+2. Bu ZIP dosyasini ac. ZIP icindeki oyku_android_proje klasorunun ICINDEKI tum dosyalari ve .github klasorunu repository kokune yukle.
+   GitHub Add file > Upload files, dosyalari surukle-birak.
+   NOT: .github klasoru da mutlaka yuklenmeli.
+3. Commit changes sec.
+4. Actions sekmesinden 'Oyku APK Olustur' is akisini ac.
+5. Run workflow > Run workflow (veya push ile otomatik calismasini bekle).
+6. Islem yesil tikle bittiginde sayfanin altindaki Artifacts > Oyku-Kelimeler-APK dosyasini indir.
+7. ZIP icinden app-debug.apk dosyasini cikar, tablete aktar ve yukle.
+
+UYARI: Bu proje mevcut Android TTS motorunu kullaniyor. Huawei tablette Turkce TTS motoru yoksa APK derlemek tek basina ses sorununu COZMEZ. Cevrimici Turkce ses servisi henuz entegre edilmemistir.
